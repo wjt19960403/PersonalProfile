@@ -1,0 +1,40 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,bg_1_jpg,bg_2_jpg,bg_3_jpg,self_JPG,self_2_jpg",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "bg_1_jpg",
+			"type": "image",
+			"url": "assets/bg_1.jpg"
+		},
+		{
+			"name": "bg_2_jpg",
+			"type": "image",
+			"url": "assets/bg_2.jpg"
+		},
+		{
+			"name": "bg_3_jpg",
+			"type": "image",
+			"url": "assets/bg_3.jpg"
+		},
+		{
+			"name": "self_JPG",
+			"type": "bin",
+			"url": "assets/self.JPG"
+		},
+		{
+			"name": "self_2_jpg",
+			"type": "image",
+			"url": "assets/self_2.jpg"
+		}
+	]
+}
