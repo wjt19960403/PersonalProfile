@@ -264,6 +264,8 @@ var Page = (function (_super) {
         this._distance = new egret.Point(); //鼠标点击时，记录坐标位置差
     }
     var d = __define,c=Page,p=c.prototype;
+    //
+    //
     p.mouseDown = function (evt) {
         this._touchStatus = true;
         this._distance.y = evt.stageY - this.y;

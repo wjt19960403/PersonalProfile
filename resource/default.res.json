@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "description_json,bg_1_jpg,bg_2_jpg,bg_3_jpg,self_JPG,self_2_jpg",
+			"keys": "description_json,bg_1_jpg,bg_2_jpg,bg_3_jpg,self_JPG,self_2_jpg,滑稽_png",
 			"name": "preload"
 		}
 	],
@@ -35,6 +35,11 @@
 			"name": "self_2_jpg",
 			"type": "image",
 			"url": "assets/self_2.jpg"
+		},
+		{
+			"name": "滑稽_png",
+			"type": "image",
+			"url": "assets/滑稽.png"
 		}
 	]
 }

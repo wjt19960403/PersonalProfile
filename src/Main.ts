@@ -316,7 +316,9 @@ class Page extends egret.DisplayObjectContainer {   //实现翻页用的page类
 
     private _touchStatus: boolean = false;              //当前触摸状态，按下时，值为true
     private _distance: egret.Point = new egret.Point(); //鼠标点击时，记录坐标位置差
-
+//
+    
+//
     public mouseDown(evt: egret.TouchEvent) {
         this._touchStatus = true;
         this._distance.y = evt.stageY - this.y;
@@ -353,6 +355,12 @@ class Page extends egret.DisplayObjectContainer {   //实现翻页用的page类
         }
         this.stage.removeEventListener(egret.TouchEvent.TOUCH_MOVE, this.mouseMove, this);
     }
+//
+
+    
+//
+
+    
 
 }
    
